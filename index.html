@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {margin:0; padding:0;}
+        html, body {height:100%;}
+        .wrapper {  
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr 4fr 1fr;
+          height:100%;
+        }
+          #header {background-color:#1b1b1b;}
+          #contents {background-color:#232323;}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="header"></div>
+        <div id="contents"></div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>
